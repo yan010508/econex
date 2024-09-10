@@ -1,0 +1,41 @@
+.hero{
+    display: flex;
+    padding-inline: 1.25rem;
+    padding-top: 10rem;
+    padding-left: 15rem;
+}
+
+.hero__left{
+    flex: 3;
+}
+
+.hero__right {
+    flex: 2;
+}
+
+.hero__title{
+    font-size: 1.75rem;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: #8DC63F;
+}
+
+.hero__content {
+    font-size: 3rem;
+}
+
+.hero__description {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    font-weight: 300;
+    line-height: calc(1em + 01.5rem);
+}
+
+.hero__button {
+    font-size: 1rem;
+    background: linear-gradient(to right, #8DC63F, #3e5704);
+    padding: 0.5em 2em;
+    border-radius: 6px;
+    margin-block: 1.5rem;
+}

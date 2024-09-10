@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20rem;
+    padding-block: 1.5rem;
+}
+
+.line__down{
+    padding-top: 4rem;
+
+}
+
+.div__email,
+.div__telefone{
+    display: flex;
+    align-items: center;
+}
+
+.img__email,
+.img__telefone{
+    height: 30px;
+    width: 30px;
+    margin: 0 15px;
+}
+
+.whats,
+.face,
+.insta,
+.tube {
+    height: 30px;
+    width: 30px;
+    margin: 0 15px;
+}
+
+.header__button{ 
+    font-size: 1rem;
+    background: linear-gradient(to right, #8DC63F, #3e5704);
+    padding: 0.5em 2em;
+    border-radius: 6px;
+}
+
+.nav__ul,
+.nav__ul2 {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav__a {
+    color: inherit;
+    text-decoration: none;
+}
